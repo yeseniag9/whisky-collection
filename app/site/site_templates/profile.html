@@ -11,22 +11,14 @@
     </div>
 </section>
 
-<section class="text-center">
+<section class="text-center bg-img" style="background-image: url('../../static/images/one_drink.webp'); height: 800px; width: auto;">
     <div class="container p-10">
         <div class="row"><br>
-            <h3 class="p-5">Here are your profile details</h3>
+            <h3 class="p-5 text-white">Here are your profile details</h3>
             <ul class="list-group">
                 <li class="list-group-item">Email: {{ current_user.email }}</li>
                 <li class="list-group-item">Token: {{ current_user.token }} </li> 
             </ul>
-        </div>
-        
-        <div class="row" style="margin-top: 20px;">
-            <div class="col-4"></div>
-            <div class="col-3 p-10">
-                <img src="../../static/images/one_drink.webp" class="d-flex align-items-center 
-                justify-content-center p-50 img-fluid" alt="Order ride">
-            </div>
         </div>
     </div>
 </section>    
